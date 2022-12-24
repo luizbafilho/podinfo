@@ -9,3 +9,6 @@ spec:
     branch: master
   replicas: 1
   public: true
+  env:
+  - name: "PODINFO_PORT"
+    value: "8080"
