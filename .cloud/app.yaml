@@ -1,0 +1,11 @@
+apiVersion: luizfilho.cloud/v1alpha1
+kind: App
+metadata:
+  name: podinfo
+spec:
+  source:
+    owner: luizbafilho
+    repo: podinfo
+    branch: master
+  replicas: 1
+  public: true
