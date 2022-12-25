@@ -12,3 +12,6 @@ spec:
   env:
   - name: "PODINFO_PORT"
     value: "8080"
+  build:
+    dockerfile: Dockerfile.xx
+    platforms: ["linux/amd64", "linux/arm64"]
