@@ -7,7 +7,7 @@ spec:
     owner: luizbafilho
     repo: podinfo
     branch: master
-  replicas: 1
+  replicas: 2
   public: true
   env:
   - name: "PODINFO_PORT"
